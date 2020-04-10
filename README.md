@@ -13,4 +13,6 @@ Then **everyone** should type these commands into their terminal:
 `pip3 install imageai --upgrade`
 
 
-These might take awhile to download onto your computer.
+These might take awhile to download onto your computer.  
+Also, click on the link below to download the RetinaNet model file that will be used for object detection:  
+https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/resnet50_coco_best_v2.0.1.h5
