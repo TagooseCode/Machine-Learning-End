@@ -7,10 +7,10 @@ If you are a **WINDOWS** user, you might need to reinstall the latest version of
 
 
 Then **everyone** should type these commands into their terminal:  
-> `pip3 install tensorflow`  
-`pip3 install opencv-python`  
-`pip3 install keras`  
-`pip3 install imageai --upgrade`
+> `pip install tensorflow==1.13.1` 
+`pip install opencv-python`  
+`pip install keras`  
+`pip install imageai --upgrade`  
 
 
 These might take awhile to download onto your computer.  
@@ -18,4 +18,5 @@ Also, click on the link below to download the RetinaNet model file that will be 
 https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/resnet50_coco_best_v2.0.1.h5
 
 ## Note  
-Image file must be called `image.jpg`
+- Image file must be called `image.jpg`
+- Downgrades version of Tensorflow because `get_session` is not available when using TensorFlow 2.0
