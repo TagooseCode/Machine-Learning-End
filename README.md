@@ -7,7 +7,7 @@ If you are a **WINDOWS** user, you might need to reinstall the latest version of
 
 
 Then **everyone** should type these commands into their terminal:  
-> `pip install tensorflow==1.13.1` 
+> `pip install tensorflow==1.13.1`  
 `pip install opencv-python`  
 `pip install keras`  
 `pip install imageai --upgrade`  
